@@ -5,10 +5,24 @@
   
 </div>
 
+## About the project ⚠️
+
+This project is about creating a simple wireframe
+model of a landscape.
+
+
 ## Objectives
 
-It’s time for you to create a basic computer graphics project!
+It’s time for to create a basic computer graphics project!
 
-You are going to use the school graphical library: the MiniLibX! This library was developed internally and includes basic necessary tools to open a window, create images and deal with keyboard and mouse events.
+## Requiriments
 
-This will be the opportunity for you to get familiar with the MiniLibX, to discover the basics of graphics programming, especially how to place points in space, join them and, most important, how to see the scene from a specific viewpoint.
+- [ ] Use the MiniLibX
+- [ ] Turn in a Makefile which will compile your source files. It must not
+relink
+- [ ] Global variables are forbidden
+- [ ]  program has to represent the model in isometric projection.
+- [ ]  Each number represents a point in space:
+  - The horizontal position corresponds to its axis
+  - The vertical position corresponds to its ordinate
+  - The value corresponds to its altitude.
