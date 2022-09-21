@@ -18,11 +18,20 @@ It’s time for to create a basic computer graphics project!
 ## Requiriments
 
 - [ ] Use the MiniLibX
-- [ ] Turn in a Makefile which will compile your source files. It must not
-relink
+- [ ] Turn in a Makefile which will compile your source files. It must not relink
 - [ ] Global variables are forbidden
 - [ ]  program has to represent the model in isometric projection.
 - [ ]  Each number represents a point in space:
   - The horizontal position corresponds to its axis
   - The vertical position corresponds to its ordinate
   - The value corresponds to its altitude.
+
+## Allowed functions
+
+✔️ open, close, read, write, malloc, free, perror, strerror, exit
+
+✔️ All functions of the math library (-lm compiler option, man man 3 math)
+
+✔️ All functions of the MiniLibX
+
+✔️ ft_printf
