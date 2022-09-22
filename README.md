@@ -5,7 +5,7 @@
   
 </div>
 
-## About the project ⚠️
+##  ⚠️ About the project
 
 This project is about creating a simple wireframe
 model of a landscape.
