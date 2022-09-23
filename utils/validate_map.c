@@ -8,18 +8,22 @@ int	count_cols(char *line)
 	while(line[++i] != '\0')
 	{
 		if(line[i] == ' ')
+		{
 			++j;
+			// printf("%d\n", j);
+		}
 	}
 	return (++j);
 }
 
 int main()
 {
-	int cols;
-	char *test = "0 0 10 0 0";
+	unsigned int cols;
+	char *test = "0  0  10  0  0";
 
+	printf("%s\n", test);
 	cols = count_cols(test);
-	printf("%d\n", cols);
+	printf("%i\n", cols);
 
 	return 0;
 }
